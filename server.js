@@ -1,7 +1,7 @@
-const express = require('express')
-const app = express()
-const PORT = 3030
+const express = require("express");
+const app = express();
+const PORT = 3030;
 
-app.listen(PORT, ()=>{
-  console.log('Server is running on PORT: '${PORT})
-})
+app.listen(PORT, () => {
+  console.log(`Server is running on PORT: ${PORT}`);
+});
