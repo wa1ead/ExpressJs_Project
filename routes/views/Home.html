@@ -11,9 +11,9 @@
         <h2>HOME</h2>
       </div>
       <nav>
-        <li>Home</li>
-        <li>Our Services</li>
-        <li>Contact Us</li>
+        <a href="/home"><li>Home</li></a>
+        <a href="/services"><li>Our Services</li></a>
+        <a href="/contact"><li>Contact Us</li></a>
       </nav>
     </header>
   </body>
@@ -32,7 +32,7 @@
     align-items: center;
   }
 
-  h2{
+  h2 {
     font-family: sans-serif;
     font-weight: bold;
   }
@@ -45,9 +45,14 @@
 
   li {
     list-style: none;
-    color:aliceblue;
+    color: aliceblue;
     font-family: sans-serif;
-    font-size:large;
-    font-weight: bold
+    font-size: large;
+    font-weight: bold;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer
   }
 </style>
